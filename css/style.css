@@ -3,3 +3,47 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body{
+	height: 100%;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Mobile State */
+.desktopView {
+	display: none;
+}
+
+#mainSection {
+	min-height: 100vh;
+	margin-bottom: -75px;
+}
+
+/* Footer */
+#footerLeft {
+	display: none;
+}
+
+footer{
+	background-color: black;
+	height: 75px;
+	color: white;
+}
+
+#footerRight {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 75px;
+}
+
+#footerRight i{
+	font-size: 40px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+#footerRight i:hover{
+	color: rgb(218, 26, 50);
+}
